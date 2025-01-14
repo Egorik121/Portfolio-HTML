@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(135deg, #5451ff, #0b0b23);
+  transition: background 1s;
+}
+.color-box {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 130px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 130px;
+}
+button:hover {
+  background-color: #45a049;
+}
